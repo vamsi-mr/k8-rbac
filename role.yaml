@@ -68,6 +68,6 @@ subjects:
   name: mohan
   apiGroup: rbac.authorization.k8s.io
 roleRef:
-- kind: ClusterRole
+  kind: ClusterRole
   name: roboshop-cluster
   apiGroup: rbac.authorization.k8s.io
