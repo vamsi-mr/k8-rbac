@@ -60,7 +60,7 @@ rules:
 
 ---
 apiVersion: rbac.authorization.k8s.io/v1
-kind: ClusterBindingRole
+kind: ClusterRoleBinding
 metadata:
   name: roboshop-cluster
 subjects:
