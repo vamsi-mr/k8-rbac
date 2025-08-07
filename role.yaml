@@ -1,4 +1,4 @@
-apiVersion: rbac.authorization.k8s.i0/v1
+apiVersion: rbac.authorization.k8s.io/v1
 kind: Role
 metadata:
   namespace: roboshop
@@ -12,8 +12,8 @@ rules:
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: roboshop-trainee
   namespace: roboshop
+  name: roboshop-trainee
 subjects:
 - kind: User
   name: mohan
