@@ -29,7 +29,7 @@ metadata:
   namespace: roboshop
   name: roboshop-trainee
 rules:
-- apiGroup: ["*"]
+- apiGroups: ["*"]
   resources: ["*"]
   verbs: ["*"]
 
