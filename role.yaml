@@ -10,6 +10,20 @@ rules:
 
 ---
 apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  namespace: roboshop
+  name: roboshop-trainee
+rules:
+- apiGroups: [""]   ## indicates the core API group
+  resources: ["pods"]  ## nouns
+  verbs: ["get", "watch", "list", "create"]  ## actions
+- apiGroups: ["apps"]
+  resources: ["deployments"]
+  verbs: ["get", "list", "watch", "create", "update", "patch", "delete"]
+  
+---
+apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
   namespace: roboshop
