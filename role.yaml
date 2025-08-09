@@ -19,7 +19,7 @@ metadata:
   name: roboshop-trainee
 subjects:
 - kind: User
-  name: ravada
+  name: mohan
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: Role
@@ -46,7 +46,7 @@ metadata:
   name: roboshop-lead
 subjects:
 - kind: User
-  name: vamsi
+  name: mohan
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: Role
