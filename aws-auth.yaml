@@ -18,3 +18,7 @@ metadata:
   name: aws-auth
   namespace: kube-system
   uid: 23983ebb-99d9-4c25-8c3d-663d2ee12505
+
+
+## aws sts get-caller-identity
+## aws eks update-kubeconfig --region=us-east-1 --name roboshop
